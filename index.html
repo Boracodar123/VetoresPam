@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROJETO VETOR</title>
+	<script type="text/javascript">
+
+		let = [1, 2, 3, 4]
+		var nomes = ["Paulinho" , "Welligton" , "Elisangela", "Rodolfo"]
+
+		const dadosCadastrados = [
+		{nome: Paulinho,},
+		
+		{nome: Welligton,},
+		
+		{nome: Elisangela,},
+
+		{nome: Rodolfo}
+
+		];
+
+		alert (mensagem)
+
+
+		function vetorpush(Jose_adriano) {
+			insertnome = document.getElementById('insertnome').value
+			nomes.push(insertnome)
+
+			alert(nomes)
+
+		}
+		function vetorunshift() {
+
+			insertnome = document.getElementById('insertnome').value
+			nomes.unshift(insertnome)	
+
+			alert(nomes)
+		}
+
+		function vetorshift(){
+
+			nomes.shift()
+
+			alert(nomes)
+
+		}
+
+		function exibir() {
+
+			alert(nomes)
+		}
+		
+		function vetorpesquisar(){
+
+			var valorpesquisa = document.getElementById('insertnome')
+		}
+
+		function vetorunshift2(){
+			nomes.shift() 
+
+			alert(nomes)	
+		}
+
+		function vetorRemover(){
+			nomes.shift()
+		}
+
+		let dados = [];
+
+		dados.push("Algo do tipo");
+		dados.push("Pode ser");
+		dados.push("Sera que vai");
+
+		alert(dados.join("\n"));
+
+	</script>
+	<meta charset="utf-8">
+</head>	
+<body>
+	<input type="text" name="insertnome" id="insertnome" placeholder="Insira o nome aqui">
+
+	<input type="button" name="btnCadastrar" value="INSERIR NO INICIO" onclick="vetorunshift()">
+
+	<input type="button" name="btnCadastrarInicio" value="INSERIR NO FINAL" onclick="vetorpush()">
+
+	<input type="button" name="btnMostarsegundo" value="MOSTRAR SEGUNDO" onclick="vetorunshift2()">
+
+	<input type="button" name="btnPesquisar" value="PESQUISAR" onclick="vetorpesquisar()">
+
+	<input type="button" name="btnRemoverInicio" value="REMOVER" onclick="vetorRemover()">
+
+
+
+
+</body>
+</html>
